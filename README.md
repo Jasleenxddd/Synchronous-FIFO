@@ -75,7 +75,6 @@ fifo-sv-verification/
 │
 ├── docs/
 │   ├── Project.pdf          # Project specification
-│   └── Manar_Saber_Synchronous FIFO_Project.pdf  # Full project report
 │
 └── README.md
 ```
@@ -276,9 +275,11 @@ The following concurrent SVA properties are active during simulation (`` `ifdef 
 This project is for educational purposes. See individual source files for author attribution.
 
 
-## Repository Attribution
+## Repository Maintenance
 
-This repository is maintained by [Jasleen Kaur (@Jasleenxddd)](https://github.com/Jasleenxddd).
-The original FIFO design and verification project is from [manar774/Synchronous-_FIFO-_VERIFICATION](https://github.com/manar774/Synchronous-_FIFO-_VERIFICATION); its commit history and author attribution are preserved.
+Maintained by [Jasleen Kaur (@Jasleenxddd)](https://github.com/Jasleenxddd).
+This repository imports an existing educational FIFO verification project; maintaining this copy does not imply original authorship of all included materials. Existing source-file author notices are retained.
 
-Jasleen's contribution: updated the clone and setup instructions for this repository and documented the project's source.
+## Validation Status
+
+The coverage figures above are inherited project results, not results reproduced for this repository. ModelSim/QuestaSim is required to rerun the simulation. The supplied testbench and scoreboard use the default 16-bit width and depth of 8; other parameter values require corresponding testbench changes. The RTL pointer increment assumes a power-of-two depth.
